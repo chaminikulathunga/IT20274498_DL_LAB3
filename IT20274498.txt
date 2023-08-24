@@ -1,7 +1,8 @@
 Lab 3
-1.Open Google colab. Upload the 1D_Convolution.ipynb to colab. Run all cells. Based on the result, explain how 1D convolution can be used to identify the edges in an image.
+Question 1
+Open Google colab. Upload the 1D_Convolution.ipynb to colab. Run all cells. Based on the result, explain how 1D convolution can be used to identify the edges in an image.
 
-   The provided code demonstrates the utilization of 1D convolution for edge detection within an image. The process is elucidated step by step:
+The provided code demonstrates the utilization of 1D convolution for edge detection within an image. The process is elucidated step by step:
 
 signal = np.array([1, 1, 1, 1, 1, 1, 1, 0.5, 0.5, 0.5, 1, 1, 1])
 plt.stem(signal)
@@ -28,7 +29,10 @@ The implication of this process in edge detection is as follows:
 
 •Visual Representation of Detected Edges: The stem plot representation of the convolution output illustrates the positions of these intensity transitions, effectively indicating the locations of edges within the original signal. When extrapolated to the realm of image processing, this outcome translates to the accentuation of edges within the image. 
 
-2.Upload the CNN_with_keras3.ipynb file to colab. Increase the number of epochs to 50.
+
+
+Question 3
+Upload the CNN_with_keras3.ipynb file to colab. Increase the number of epochs to 50.
 Why does the validation error increases when the number of epochs are increased? Explain how you can modify the training process to stop that from happening.
 
 •Increasing the number of epochs can sometimes lead to an increase in validation error due to overfitting. Overfitting occurs when a model learns the training data too well, including noise and random fluctuations, and as a result, it fails to generalize well to new, unseen data (validation or test data).
